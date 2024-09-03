@@ -10,4 +10,11 @@ public class Member {
         this.address=address;
         this.phoneNumber=phonenumber;
     }
+
+
+    @Override
+   public String toString() {
+   return "MemberID: " + memberID + ", Name: " + name + ", Address: " + address + ",
+    Phone: " + phoneNumber;
+
 }
